@@ -1,0 +1,10 @@
+export default function Footer() {
+  return (
+    <footer className="bg-gray-900 text-gray-300 py-6 mt-12">
+      <div className="max-w-6xl mx-auto text-center">
+        <p>&copy; {new Date().getFullYear()} Muniz Motos - Todos os direitos reservados.</p>
+        <p className="text-sm mt-2">Feito com ❤️ e paixão por motocicletas.</p>
+      </div>
+    </footer>
+  );
+}
